@@ -1,6 +1,6 @@
 import { ValidationOptions } from '../ValidationOptions';
 import { buildMessage, ValidateBy } from '../common/ValidateBy';
-import isIsbnValidator from 'validator/lib/isISBN';
+import isIsbnValidator from 'validator/es/lib/isISBN';
 
 export type IsISBNVersion = '10' | '13' | 10 | 13;
 

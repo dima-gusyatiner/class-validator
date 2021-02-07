@@ -1,6 +1,6 @@
 import { ValidationOptions } from '../ValidationOptions';
 import { buildMessage, ValidateBy } from '../common/ValidateBy';
-import isVariableWidthValidator from 'validator/lib/isVariableWidth';
+import isVariableWidthValidator from 'validator/es/lib/isVariableWidth';
 
 export const IS_VARIABLE_WIDTH = 'isVariableWidth';
 
